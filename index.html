@@ -20,7 +20,13 @@ Tiisetso Dinoko portfolio
 <link rel="stylesheet" href="css/style.css">
 
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
-
+<script>
+     // JavaScript code goes here
+     var marquee = document.querySelector('.marquee');
+     marquee.addEventListener('end', function() {
+         marquee.scrollLeft = 0;
+     });
+</script>
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
@@ -42,16 +48,16 @@ Tiisetso Dinoko portfolio
           <!-- main header -->
           <div class="main-header row">
                <div class="main">
-               <a href="#" class="main-brand col-md-4 col-sm-4">
+               <a href="#home" class="main-brand col-md-4 col-sm-4">
                    <span>Tiisetso Dinoko</span>
                    <img src="./images/home-branding.png" width="10px" alt="Site icon">
                </a>
            </div>
                <div class="main col-md-8 col-sm-8">
                     <ul class="custom-main">
-                         <li><a href="#home" class="">Projects</a><div class="inner-div"></div></li>
-                         <li><a href="#about" class="">Offerings</a><div class="inner-div"></div></li>
-                         <li><a href="#experience" class="">About me</a><div class="inner-div"></div></li>
+                         <li><a href="#home" class="home">Projects</a><div class="inner-div"></div></li>
+                         <li><a href="#about" class="about">Offerings</a><div class="inner-div"></div></li>
+                         <li><a href="#experience" class="experience">About me</a><div class="inner-div"></div></li>
                     </ul>
                </div>
           </div>
@@ -67,16 +73,16 @@ Tiisetso Dinoko portfolio
                <div class="col-md-4 col-sm-4">
                     <div class="home-thumb">
                          <div class="section-title">
-                              <p class="wow fadeInUp" data-wow-delay="0.9s"><strong><span style="color: #F66B0E;  font-size: 1.2rem;">CONTACT ME</span></strong></p>
-                              <p class="wow fadeInUp" data-wow-delay="0.9s"><strong><span style="color: #F66B0E;  font-size: 1.2rem;">JACOBDINOKO@GMAIL.COM</span></strong></p>
+                              <h5 class="wow fadeInUp" data-wow-delay="0.9s"><strong><span style="color: #F66B0E;  font-size: 1.2rem;">CONTACT ME</span></strong></h5>
+                              <a href=""><h5 class="wow fadeInUp" data-wow-delay="0.9s"><strong><span style="color: #F66B0E;  font-size: 1.2rem;">JACOBDINOKO@GMAIL.COM</span></strong></h5></a>
                          </div>
                     </div>
                </div>
                <div class="col-md-8 col-sm-8">
                     <div class="bio-intro">
                          <div class="section-title">
-                              <p class="wow fadeInUp" data-wow-delay="0.9s"><strong><span style="color: #555;  font-size: 1rem; font-family: monospace; line-height: 0%;">CHECK OUT MY</span></strong></p>
-                              <p class="wow fadeInUp" data-wow-delay="0.9s"><strong><span style="color: #555;  font-size: 1rem; font-family: monospace; line-height: 0%;">BIOGRAPHY BELOW.</span></strong></p>
+                              <p class="wow fadeInUp" data-wow-delay="0.9s"><strong><span style="color: #555;  font-size: 0.9rem; font-family: monospace; line-height: 0%;">CHECK OUT MY</span></strong></p>
+                              <p class="wow fadeInUp" data-wow-delay="0.9s"><strong><span style="color: #555;  font-size: 0.9rem; font-family: monospace; line-height: 0%;">BIOGRAPHY BELOW.</span></strong></p>
                          </div>
                     </div>
                </div>
@@ -119,35 +125,38 @@ Tiisetso Dinoko portfolio
           </td> <!-- Big column -->
           <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
         </tr>
+        <tr>
+          <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
+          <td style="width: 80%; border: 1px solid #ccc;"></td> <!-- Big column -->
+          <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
+        </tr>
+        <tr>
+          <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
+          <td style="width: 80%; border: 1px solid #ccc;">
+               <div class="row">
+                    <div class="col-md-4 col-sm-4">
+                    </div>
+            
+                    <div class="col-md-8 col-sm-8">
+                         <p class="intro-text" style="font-size: 40px; line-height: 100%; text-align: left; padding-top: 15px; padding-bottom: 20px;"><strong>On a mission to make memorable experiences through digital design by pushing the boundaries of what's possible with technology.</strong></p>
+                    </div>
+               </div>
+          </td> <!-- Big column -->
+          <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
+        </tr>
+        <tr>
+          <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
+          <td class="" style="width: 20%; height: 0%; border: 1px solid #ccc; background-color: #222222; padding: 0px;"> 
+               <p class="margin-0px padding-0px"><strong><span style="color: #F6F1F1;  font-size: 0.9rem; font-family: monospace; line-height: 0%;">WORK EXPERIENCE</span></strong></p>
+          </td>
+              <!-- Big column -->
+          <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
+        </tr>
      
      <!-- More rows here -->
    </table>
 
-   <table style="width: 100%; background-color: lightred; border-collapse: collapse;">
-     <tr>
-       <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
-       <td style="width: 58%; border: 1px solid #ccc;"></td> <!-- Big column -->
-       <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
-       <td style="width: 20%; border: 1px solid #ccc;"></td> <!-- Big column -->
-       <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
-     </tr>
-     <tr>
-       <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
-       <td style="width: 58%; border: 1px solid #ccc;"></td> <!-- Big column -->
-       <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
-       <td style="width: 20%; border: 1px solid #ccc;"></td> <!-- Big column -->
-       <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
-     </tr>
-     <tr>
-       <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
-       <td style="width: 58%; border: 1px solid #ccc;"></td> <!-- Big column -->
-       <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
-       <td style="width: 20%; border: 1px solid #ccc;"></td> <!-- Big column -->
-       <td style="width: 1%; border: 1px solid #ccc;"></td> <!-- Small column -->
-     </tr>
-     <!-- More rows here -->
-   </table>
-   
+  
    
    
 

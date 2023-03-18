@@ -33,7 +33,7 @@
     }
   });
 
-  function main() {
+  $('.custom-main a').click(function(){
     // Get the current URL or section ID
 const currentUrl = window.location.href;
 const currentSection = document.querySelector('.section.active').id;
@@ -46,7 +46,9 @@ menuItems.forEach(item => {
   }
 });
 
-  }
+  });
+
+  
 
 
 
