@@ -329,7 +329,7 @@ a:hover, a:active, a:focus {
 }
 
 .custom-main li a:hover {
-    color: #f3f4f6;
+    color: #ccc;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 1px;
@@ -342,7 +342,7 @@ a:hover, a:active, a:focus {
 
 
 .custom-main li.active > a {
-    color: #f3f4f6;
+    color: #ccc;
     padding-top: 0px;
     padding-bottom: 0px;
     padding-left: 1px;
@@ -421,7 +421,7 @@ a:hover, a:active, a:focus {
   align-items: center;
   line-height: 6px;
   letter-spacing: 1px;
-  padding: 60px 45px 0 16px;
+  padding: 60px 45px 0 5px;
 }
 
 
@@ -482,12 +482,15 @@ td {
 
 
 th, td {
-  border: 1px solid black;
-  padding: 8px;
-  text-align: center;
+  border: 1px solid transparent;
+  padding-left: 8px;
+  padding-top: 6px;
+  text-align: left;
 }
 
 th {
   background-color: #f2f2f2;
 }
+
+
 
