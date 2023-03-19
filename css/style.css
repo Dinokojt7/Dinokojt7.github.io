@@ -7,30 +7,37 @@ site Url:
 */
 
 body {
-	background: #f3f4f6;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: normal;
-	font-weight: 300;
-    overflow-x: hidden;
+  background: #f3f4f6;
+  font-family: "Source Sans Pro", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  overflow-x: hidden;
 }
 
-html,body {
+html,
+body {
   width: 100%;
   height: 100%;
 }
 
-
 /*---------------------------------------
-    Typorgraphy              
+  Typorgraphy              
 -----------------------------------------*/
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-style: normal;
   font-weight: 300;
-  user-select: none
+  user-select: none;
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
   font-weight: 300;
 }
 
@@ -71,12 +78,12 @@ strong {
 }
 
 p {
-    color: #888;
-    font-size: 16px;
-    font-weight: 300;
-    line-height: 28px;
-    letter-spacing: 0.2px;
-    user-select: none
+  color: #888;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0.2px;
+  user-select: none;
 }
 
 .section-btn {
@@ -120,7 +127,7 @@ p {
   margin-bottom: 0px;
   user-select: none;
   font-family: Arial, sans-serif;
-  letter-spacing:-1px;
+  letter-spacing: -1px;
 }
 
 #about,
@@ -132,7 +139,7 @@ p {
 }
 
 #home .container,
-#about .container, 
+#about .container,
 #experience .container,
 #service .container,
 #education .container,
@@ -143,7 +150,7 @@ p {
 }
 
 #experience .experience-thumb,
-#education .education-thumb  {
+#education .education-thumb {
   padding: 22px 42px 42px 42px;
 }
 
@@ -159,16 +166,16 @@ footer {
 }
 
 .background-image {
-    background-position: 50% 50% !important;
-    background-size: cover !important;
-    width: 100%;
-    height: 100%;
-    min-height: 75vh;
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+  background-position: 50% 50% !important;
+  background-size: cover !important;
+  width: 100%;
+  height: 100%;
+  min-height: 75vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .color-white {
@@ -191,13 +198,11 @@ footer {
   background: #161616;
 }
 
-
-
 /*---------------------------------------
-    General               
+  General               
 -----------------------------------------*/
 
-html{
+html {
   -webkit-font-smoothing: antialiased;
 }
 
@@ -208,7 +213,9 @@ a {
   transition: 0.5s;
   text-decoration: none !important;
 }
-a:hover, a:active, a:focus {
+a:hover,
+a:active,
+a:focus {
   color: #E3AE57;
   outline: none;
 }
@@ -226,10 +233,8 @@ a:hover, a:active, a:focus {
   box-sizing: border-box;
 }
 
-
-
 /*---------------------------------------
-    Preloader section              
+  Preloader section              
 -----------------------------------------*/
 
 .preloader {
@@ -247,58 +252,60 @@ a:hover, a:active, a:focus {
 }
 
 /* .spinner {
-  border: 1px solid transparent;
-  border-radius: 5px;
-  position: relative;
+border: 1px solid transparent;
+border-radius: 5px;
+position: relative;
 }
 
 .spinner:before {
-  content: '';
-  box-sizing: border-box;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 30px;
-  height: 30px;
-  margin-top: -10px;
-  margin-left: -10px;
-  border-radius: 50%;
-  border: 2px solid #E3AE57;
-  border-top-color: #f9f9f9;
-  animation: spinner .6s linear infinite;
+content: '';
+box-sizing: border-box;
+position: absolute;
+top: 50%;
+left: 50%;
+width: 30px;
+height: 30px;
+margin-top: -10px;
+margin-left: -10px;
+border-radius: 50%;
+border: 2px solid #E3AE57;
+border-top-color: #f9f9f9;
+animation: spinner .6s linear infinite;
 } */
 
 @-webkit-@keyframes spinner {
-  to {transform: rotate(360deg);}
+  to {
+      transform: rotate(360deg);
+  }
 }
 
 @keyframes spinner {
-  to {transform: rotate(360deg);}
+  to {
+      transform: rotate(360deg);
+  }
 }
 
-
-
 /*---------------------------------------
-    Navigation section              
+  Navigation section              
 -----------------------------------------*/
 .main-header {
   padding-top: 17px;
 }
 .custom-main {
-    margin-bottom: 0;
-    background-color: #f3f4f6;
-    color: #000;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 1px;
-    padding: 0%;
-    margin-right: 10px;
-    font-size: 15px;
-    border-bottom: none;
-    transition: all 0.4s ease-in-out;
-    letter-spacing: 0.5px;
-    list-style-type: none;
-    display: flex;
+  margin-bottom: 0;
+  background-color: #f3f4f6;
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  padding: 0%;
+  margin-right: 10px;
+  font-size: 15px;
+  border-bottom: none;
+  transition: all 0.4s ease-in-out;
+  letter-spacing: 0.5px;
+  list-style-type: none;
+  display: flex;
 }
 
 .custom-main .main-brand {
@@ -314,75 +321,70 @@ a:hover, a:active, a:focus {
 }
 
 .custom-main li a {
-    color: #000;
-    font-size: 16px;
-    font-weight: 400;
-    margin-right: 10px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 1px;
-    border-bottom: none;
-    transition: all 0.4s ease-in-out;
-    letter-spacing: -0.5px;
-    display: inline-block;
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+  margin-right: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-bottom: none;
+  transition: all 0.4s ease-in-out;
+  letter-spacing: -0.5px;
+  display: inline-block;
 }
 
 .custom-main li a:hover {
-    color: #ccc;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 1px;
-    font-size: 16px;
-    background-color: #000;
-    border-bottom: 1px solid #EE4B2B; /* add red bottom border */
-    letter-spacing: -0.5px;
+  color: #ccc;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 1px;
+  padding-right: 1px;
+  font-size: 16px;
+  background-color: #000;
+  border-bottom: 1px solid #EE4B2B; /* add red bottom border */
+  letter-spacing: -0.5px;
 }
-
 
 .custom-main li.active > a {
-    color: #ccc;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 1px;
-    padding-right: 1px;
-    font-size: 16px;
-    background-color: #000;
-    border-bottom: 1px solid #EE4B2B; /* add red bottom border */
-    letter-spacing: -0.5px;
+  color: #ccc;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 1px;
+  padding-right: 1px;
+  font-size: 16px;
+  background-color: #000;
+  border-bottom: 1px solid #EE4B2B; /* add red bottom border */
+  letter-spacing: -0.5px;
 }
 
 .custom-main .main-toggle {
-    border: blue;
+  border: blue;
 }
 
 .custom-main .main-toggle {
-    background-color: transparent;
+  background-color: transparent;
 }
 
 .custom-main .main-toggle .icon-bar {
-    background: #E3AE57;
-    border-color: transparent;
+  background: #E3AE57;
+  border-color: transparent;
 }
 
-@media(min-width:768px) {
-    .custom-main {
-        border-bottom: 0;
-        background: 0 0; 
-    }
-    .custom-main.top-nav-collapse {
-        background: #f3f4f6;
-        box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
-
-    }
-
+@media (min-width: 768px) {
+  .custom-main {
+      border-bottom: 0;
+      background: 0 0;
+  }
+  .custom-main.top-nav-collapse {
+      background: #f3f4f6;
+      box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
+  }
 }
-
-
 
 /*---------------------------------------
-    Home section              
+  Home section              
 -----------------------------------------*/
 
 #home h1 {
@@ -400,7 +402,7 @@ a:hover, a:active, a:focus {
   line-height: 30%;
 }
 
-#home .contact p{
+#home .contact p {
   color: red;
 }
 
@@ -424,10 +426,8 @@ a:hover, a:active, a:focus {
   padding: 60px 45px 0 5px;
 }
 
-
-
 /*---------------------------------------
-   About section              
+ About section              
 -----------------------------------------*/
 
 .marquee {
@@ -439,7 +439,7 @@ a:hover, a:active, a:focus {
 }
 
 #about .about-img {
-    background: url('../images/about-img.jpg') no-repeat;
+  background: url("../images/about-img.jpg") no-repeat;
 }
 
 #about .about-thumb,
@@ -465,10 +465,8 @@ a:hover, a:active, a:focus {
   padding-bottom: 8px;
 }
 
-
-
 /*---------------------------------------
-    Service section              
+  Service section              
 -----------------------------------------*/
 
 table {
@@ -480,8 +478,8 @@ td {
   border: 1px solid black; /* Add a border to the cells */
 }
 
-
-th, td {
+th,
+td {
   border: 1px solid transparent;
   padding-left: 8px;
   padding-top: 6px;
@@ -491,6 +489,3 @@ th, td {
 th {
   background-color: #f2f2f2;
 }
-
-
-
