@@ -471,3 +471,19 @@ td {
 th {
   background-color: #f2f2f2;
 }
+
+.geeks {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.geeks img {
+  width: 100%;
+  transition: 0.2s all ease-in-out;
+}
+
+.geeks:hover img {
+  transform: scale(1.1);
+}
