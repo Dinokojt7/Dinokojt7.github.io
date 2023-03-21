@@ -4,7 +4,7 @@ Welcome to my portfolio site hosted on GitHub! This site serves as an introducti
 
 ## Accessing the Site
 
-To access the site, simply click on this link: [My Portfolio](Dinokojt7.github.io)
+To access the site, simply click on this link: [My Portfolio](https://dinokojt7.github.io/)
 
 ## About Me
 
