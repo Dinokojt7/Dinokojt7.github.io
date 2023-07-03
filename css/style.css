@@ -89,7 +89,6 @@ p {
 }
 
 .section-btn {
-  background-color: transparent;
   border: 3px solid #232B2B;
   border-radius: 100px;
   color: #232B2B;
@@ -113,10 +112,7 @@ p {
   border-color: transparent;
 }
 
-.parallax-section {
-  background-attachment: fixed !important;
-  background-size: cover !important;
-}
+
 
 .section-title {
   position: relative;
@@ -272,13 +268,15 @@ Navigation section
   padding-top: 17px;
   position: fixed;
   top: 0;
-  width: 100%;  background-color: #f3f4f6;
+  padding-left: 35px;
+  z-index: 9999;
+  width:100%;  background-color: #f3f4f6 !important;
 }
 
 
-.custom-main {
+.custom-main {width: 100%;position:fixed;
   margin-bottom: 0;
-  background-color: #f3f4f6;
+  background-color: #f3f4f6 !important;
   color: #000;
   font-size: 14px;
   font-weight: 400;
@@ -290,6 +288,7 @@ Navigation section
   transition: all 0.4s ease-in-out;
   letter-spacing: 0.5px;
   list-style-type: none;
+  z-index: 9998;
   display: flex;
 }
 
@@ -350,21 +349,21 @@ Navigation section
 }
 
 .custom-main .main-toggle {
-  background-color: transparent;
+  background-color: blue;
 }
 
 .custom-main .main-toggle .icon-bar {
   background: #E3AE57;
-  border-color: transparent;
+  border-color: #ccc;
 }
 
 @media (min-width: 768px) {
   .custom-main {
       border-bottom: 0;
-      background: 0 0;
+      background: #ccc;
   }
   .custom-main.top-nav-collapse {
-      background: #f3f4f6;
+      background: #f3f4f6 !important;
       box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.08);
   }
 }
