@@ -270,7 +270,12 @@ Navigation section
 -----------------------------------------*/
 .main-header {
   padding-top: 17px;
+  position: fixed;
+  top: 0;
+  width: 100%;  background-color: #f3f4f6;
 }
+
+
 .custom-main {
   margin-bottom: 0;
   background-color: #f3f4f6;
